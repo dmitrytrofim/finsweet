@@ -1,17 +1,17 @@
+import TheWrapper from '@/layouts/TheWrapper';
 import Header from '@/layouts/TheHeader';
 import Footer from '@/layouts/TheFooter';
-import TheWrapper from '@/layouts/TheWrapper';
 
-function App() {
+function Pattern() {
  return (
   <>
    <TheWrapper>
     <Header />
-    <main>Home</main>
+    <main>Blog</main>
     <Footer />
    </TheWrapper>
   </>
  );
 }
 
-export default App;
+export default Pattern;
